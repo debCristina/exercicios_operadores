@@ -5,19 +5,19 @@ main(){
     //3.Dadas as medidas de uma sala, informe sua área.
     
     //declarar variaveis
-    float alt, comprimento, area;
+    float larg, comprimento, area;
 
     //receber os dados
     printf("Informe o comprimento: ");
     scanf("%f", &comprimento);
 
-    printf("Informe a altura:");
+    printf("Informe a larg:");
     scanf("%f", &alt);
 
     //realizar a operacao
-    area = comprimento * alt;
+    area = comprimento * larg;
 
-    printf("A area e igual a: %f", area);
+    printf("A area e igual a: %.2f", area);
 
 
 
