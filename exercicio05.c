@@ -19,11 +19,14 @@ main(){
     printf("\nDespesas: ");
     scanf("%f", &despesas);
 
-    printf("\nQual o valor de venda do produto: ");
-    scanf("%f", &venda);
-  
-    //realizar as operações para obter a porcentagem do lucro
+    //calcular o lucro
     total = mercadoria + frete + despesas;
+
+    //receber o valor de venda
+    printf("O pruto custa %.2f. Qual o valor de venda: ", total);
+    scanf("%f", &venda);
+
+    //realizar as operações para obter a porcentagem do lucro
     lucro = (venda - total)/total *100;
 
     //mostrar o lucro em porcentagem
