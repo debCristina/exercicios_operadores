@@ -19,7 +19,7 @@ main(){
     custo_final = custo_fabrica + valor_distribuidor + impostos;
 
     //mostrar o custo final
-    printf("\nO valor final do produto sera de: R$ %f", custo_final);
+    printf("\nO valor final do produto sera de: R$ %.2f", custo_final);
 
 
 
