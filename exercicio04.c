@@ -11,7 +11,7 @@ main(){
     scanf("%f", &real);
 
     //realizar as operacoes
-    dolar = real * 0.202131;
+    dolar = real * 0.20;
 
     //saida de dados
     printf("O valor convertido e igual a USD: %.2f", dolar);
